@@ -1,0 +1,46 @@
+{
+  "short_name": "Quick Apps",
+  "name": "Quick Apps",
+  "description": "Building amazing apps for amazing people.",
+  "icons": [
+    {
+      "src": "/img/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/icons/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/icons/apple-icon-180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/img/icons/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/img/icons/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "dir": "ltr",
+  "lang": "en",
+  "id": "/apps/phonebook",
+  "start_url": "/apps/phonebook",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#f97316",
+  "background_color": "#f1f5f9"
+}

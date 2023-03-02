@@ -1,0 +1,23 @@
+#checkbox1:checked ~ .iOS {
+  @apply text-opacity-100;
+}
+
+#checkbox2:checked ~ .droid {
+  @apply text-opacity-100;
+}
+
+#checkbox3:checked ~ .web {
+  @apply text-opacity-100;
+}
+
+#checkbox4:checked ~ .webm {
+  @apply text-opacity-100;
+}
+
+#checkbox5:checked ~ .appm {
+  @apply text-opacity-100;
+}
+
+#checkbox6:checked ~ .graphic {
+  @apply text-opacity-100;
+}

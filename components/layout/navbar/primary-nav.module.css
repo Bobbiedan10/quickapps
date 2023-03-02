@@ -1,0 +1,7 @@
+.navigation {
+  @apply hidden md:flex text-black items-center;
+}
+
+.navigation a {
+  @apply py-4 px-4;
+}

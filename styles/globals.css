@@ -1,16 +1,97 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF-display-pro";
+  src: url("/fonts/SFPRODISPLAYREGULAR.OTF");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF-display-pro";
+  src: url("/fonts/SFPRODISPLAYMEDIUM.OTF");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SF-display-pro";
+  src: url("/fonts/SFPRODISPLAYLIGHTITALIC.OTF");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "SF-display-pro";
+  src: url("/fonts/SFPRODISPLAYBOLD.OTF");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SF-display-pro";
+  src: url("/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SF-display-pro";
+  src: url("/fonts/SFPRODISPLAYTHINITALIC.OTF");
+  font-style: normal;
+  font-weight: 100;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply bg-gray-50 dark:bg-gray-900;
+  font-family: "SF-display-pro";
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
 }
 
-* {
-  box-sizing: border-box;
+body::-webkit-scrollbar-track {
+  @apply bg-gray-200 dark:bg-gray-800 opacity-10 scroll-m-1 rounded-full;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-gray-200 dark:bg-gray-800 opacity-10 scroll-m-1 rounded-full;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-orange-500 rounded-full border;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  @apply bg-orange-300;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-200 dark:bg-gray-700 opacity-10 scroll-m-1 rounded-full;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-orange-500 rounded-full border;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-orange-300;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
 }

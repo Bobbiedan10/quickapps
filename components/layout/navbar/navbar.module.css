@@ -1,0 +1,6 @@
+.navbar {
+  @apply fixed bg-gray-50 inset-x-0 shadow top-0 z-50 backdrop-blur-lg bg-opacity-50 !important;
+}
+.container {
+  @apply max-w-6xl mx-auto;
+}
